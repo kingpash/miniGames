@@ -1,0 +1,61 @@
+<!--
+* CSD122 - JavaScript & JQuery
+* Final Project - Group Phase 2
+* @author: Geraldine Davila   
+* Group 2
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tic Tac Toe</title>
+		<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet"> 
+        <link rel="stylesheet" type="text/css" href="Resources/TicTacToe/styles.css">
+        <link rel="stylesheet" type="text/css" href="Resources/Home/nav.css">
+		<link rel="stylesheet" type="text/css" href="Resources/Home/footer.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    </head>
+    <body>
+	    <main id="main">
+	    <header class="header">
+			<a href="home.html" class="logo">PG-13 Square</a>
+			<nav class="header-right">
+    			<a href="home.html">Home</a>
+				<a href="about.html">About</a>
+			</nav>
+		</header>
+        <div id="Head"><h1>TIC - TAC - TOE</h1></div>
+	   <span id='jump_to_this_location'></span>
+        <div id="gameboard">
+        <Table>
+            <tr>
+                <td class="square bottom right" id="s1" onClick = "nextMove(this)"></td>
+                <td class="square bottom right" id="s2" onClick = "nextMove(this)"></td>  
+                <td class="square bottom" id="s3" onClick = "nextMove(this)"></td>  
+            </tr>
+            <tr>
+                <td class="square bottom right" id="s4" onClick = "nextMove(this)"></td>
+                <td class="square bottom right" id="s5" onClick = "nextMove(this)"></td>  
+                <td class="square bottom" id="s6" onClick = "nextMove(this)"></td>  
+            </tr>
+            <tr>
+                <td class="square right" id="s7" onClick = "nextMove(this)"></td>
+                <td class="square right" id="s8" onClick = "nextMove(this)"></td>  
+                <td class="square" id="s9" onClick = "nextMove(this)"></td>  
+            </tr>
+        </Table>
+        </div>
+		<script src="Resources/TicTacToe/main.js"></script>
+       <div id="Button" onclick="startGame();"><button>Play</button></div>
+       <div id="message">Press Play to start the game!</div>
+	   </main>   
+    <footer>
+		<div class="footer">
+			<p class="fp"><strong>Copyright</strong> &copy PG-13 Square</p>
+			<p class="fp">Spring 2018 - CSD 122: Javascript - LWTECH</p>
+		</div>
+	</footer>
+    </body>
+
+</html>

@@ -1,0 +1,18 @@
+.footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1px;
+  background-color: #efefef;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fp{
+	padding: 1px;
+	text-align: center;
+	font-size: small;
+	color: gray;
+	font-family: "Courier New", Courier, serif;
+}

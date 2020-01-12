@@ -1,0 +1,110 @@
+/*
+* CSD122 - JavaScript & JQuery
+* Final Project - Group Phase 2
+* @author: Geraldine Davila   
+* Group 2
+*/
+
+    body {
+		background-color: white;
+		text-align: center;
+		margin-top: 10px;
+    }
+    
+    main {
+	    background-color: #33C0FF;
+		text-align: center;
+		margin-top: 10px;
+    }
+
+	#Head {
+       text-align: center;
+       padding-bottom: 5px; 
+    }
+	
+	h1 {
+		font-size:35pt;
+        text-shadow: 5px;
+		word-spacing: -5px;
+		color: #FF3376;
+		font-family: 'Fredoka One', cursive;
+        margin: auto;
+        padding-bottom: 0px;
+        padding-top: 20px;
+    }
+	
+    .square {
+		float: left;
+		width: 112px;
+		height: 84px;
+		cursor: pointer;
+		text-align: center;
+		font-size: 45px;
+		padding-top: 35px;
+		font-family: 'Fredoka One', cursive;
+	}
+
+    .square:hover
+    { 
+		background-color: #EE82EE;
+        color: white;
+		cursor: cell;
+    }
+
+    #message
+    {
+        text-align: center;
+        font-size: 20pt;
+		font-family: 'Fredoka One', cursive;
+        padding-bottom: 10px;
+        padding-top: 25px;
+    }
+
+    #gameboard { 
+		width: 360px;
+		margin: 40px auto 0px auto;
+		padding-bottom: 15px;
+	}
+
+	.bottom {
+		border-bottom: 5px solid black;
+	}
+
+	.right {
+		border-right: 5px solid black;
+	}
+	
+    button 
+    {
+		text-align: center;
+        margin: auto;
+		margin-right: 15px;
+        font-size: 18pt;
+		font-weight: bold;
+        font-family: 'Fredoka One', cursive;
+        width: 110px;
+        height: 80px;
+        border: solid 0.5px #000;
+        border-radius: 80px;
+		background-color: #FF3376;
+        
+    }
+    
+    button:hover 
+	{
+		background-color: #FF507D;
+		color: white;
+		cursor: pointer;
+	}
+    
+    button:focus 
+    {
+        outline:0;
+    }
+   
+   .colorPink{
+        color: #ffd700;
+    }
+	.colorBlack{
+        color: #DC143C;
+    }

@@ -1,0 +1,105 @@
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0px 40px 0px 40px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 10px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.column p {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  background-color:#cbcbcb;
+}
+
+.container2 {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  max-height: 226px;
+  background-color: white;
+  visibility: visible;
+}
+
+
+.image {
+  display: flex;
+  width: 100%;
+  height: auto;
+  
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 15px;
+  padding: 20px;
+  text-align: center;
+  font-family: "Courier New", Courier, serif;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.title{
+	position: relative;
+	display: block;
+    color: black;
+    text-align: center;
+    padding: 40px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+p{
+	font-size: small;
+	text-align: justify;
+	color: gray;
+	font-family: "Courier New", Courier, serif;
+}

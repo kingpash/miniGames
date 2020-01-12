@@ -1,0 +1,21 @@
+/*
+	CSD_122_Group_Project
+	Created by Pablo Bautista on 5/20/2018.
+	Copyright © 2018 Pablo Bautista. All rights reserved.
+*/
+h1{
+	text-align: center;
+}
+
+a.link:link, a.link:visited {
+    background-color: white;
+    color: #6a6a6a;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    font-size: 16px;
+    font-style: normal;
+    border: 2px solid #6a6a6a;
+}
